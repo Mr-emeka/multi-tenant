@@ -40,9 +40,9 @@ export default async function page({ params }: { params: { id: string } }) {
     <div className="text-white text-2xl">
       {event.event.name}
 
-      <form method="POST" action="/api/pay" onSubmit={handlePay}>
+      {/* <form method="POST" action="/api/pay" onSubmit={handlePay}> */}
         <button type="submit">Pay</button>
-      </form>
+      {/* </form> */}
     </div>
   );
 }
